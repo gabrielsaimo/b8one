@@ -3,8 +3,10 @@ import Card from './components/layout/Card';
 import Repeticao from "./components/todo";
 export default props =>
   <div className="App">
-    <Card titulo="repeticao">
+    <Card >
       <Repeticao></Repeticao>
     </Card>
-
+    <Card >
+      <Repeticao ></Repeticao>
+    </Card>
   </div>

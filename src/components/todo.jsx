@@ -4,12 +4,11 @@ export default props =>
 {
     function getProdutos(){
         return products.map(prod =>{
-            return <li key={prod.id}> {prod.nome} - {prod.descricao} - R$ {prod.preco} </li>
+            return <li key={prod.id}> {prod.nome} - {prod.descricao} <del>{prod.oferta} </del>R$ {prod.preco} </li>
         })
     }
     return(
         <div>
-            <h2>repetição</h2>
             <ul>
                 {getProdutos()}
             </ul>
