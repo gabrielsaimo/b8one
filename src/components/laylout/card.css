@@ -12,7 +12,8 @@ div {
     margin-right  : 30px;
     margin-left   : 30px;
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
 }
 
@@ -87,18 +88,24 @@ h6 {
 
     /* Inside Auto Layout */
 
-    flex      : none;
-    order     : 2;
-    align-self: stretch;
-    flex-grow : 0;
-    margin    : 32px 32px;
-    cursor: pointer;
-    color: white;
+    flex               : none;
+    order              : 2;
+    align-self         : stretch;
+    flex-grow          : 0;
+    margin             : 32px 32px;
+    cursor             : pointer;
+    color              : white;
+    border-bottom-width: 0px;
+    border-top-width   : 0px;
+    border-left-width  : 0px;
+    border-right-width : 0px;
 }
-.btn:hover{
+
+.btn:hover {
     background: #1C6C3E;
 }
-.btn1{
+
+.btn1 {
 
     flex-direction : row;
     justify-content: center;
@@ -118,14 +125,18 @@ h6 {
 
     /* Inside Auto Layout */
 
-    flex      : none;
-    order     : 2;
-    align-self: stretch;
-    flex-grow : 0;
-    margin    : 32px 32px;
-    cursor: pointer;
-    color: black;
-    font-weight: 600;
+    flex               : none;
+    order              : 2;
+    align-self         : stretch;
+    flex-grow          : 0;
+    margin             : 32px 32px;
+    cursor             : pointer;
+    color              : black;
+    font-weight        : 600;
+    border-bottom-width: 0px;
+    border-top-width   : 0px;
+    border-left-width  : 0px;
+    border-right-width : 0px;
 }
 
 .circle {
@@ -169,7 +180,7 @@ h6 {
 }
 
 .fa-1x {
-    font-size    : 24px;
+    font-size: 24px;
 }
 
 .fa-1x:hover {
