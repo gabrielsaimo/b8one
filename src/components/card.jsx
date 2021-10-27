@@ -17,7 +17,7 @@ const TogglwSwicht1 = () =>{
 }
     return (
 
-        <div className='group'>
+        <div >
             <div>
 
             </div>
