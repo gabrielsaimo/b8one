@@ -143,17 +143,17 @@ h6 {
 
 .circle {
     background-color: #cac7c7;
-    border-radius   : 20px;
+    border-radius   : 100%;
     box-shadow      : 0 2px 8px rgb(0 0 0 / 10%);
     display         : inline-block;
-    width           : 35px;
-    height          : 35px;
+    width           : 48px;
+    height          : 48px;
     text-align      : center;
     line-height     : 45px;
-    top             : 75px;
+    top             : 80px;
 
     cursor          : pointer;
-    margin-left     : 238px;
+    margin-left     : 225px;
     position        : relative;
 }
 
@@ -163,16 +163,16 @@ h6 {
 
 .circle2 {
     background-color: #DA4B4F;
-    border-radius   : 20px;
+    border-radius   : 100%;
     box-shadow      : 0 2px 8px rgb(0 0 0 / 10%);
     display         : inline-block;
-    width           : 35px;
-    height          : 35px;
+    width           : 48px;
+    height          : 48px;
     text-align      : center;
     line-height     : 45px;
-    top             : 75px;
+    top             : 80px;
     cursor          : pointer;
-    margin-left     : 238px;
+    margin-left     : 225px;
     position        : relative;
 }
 
@@ -181,6 +181,7 @@ h6 {
 }
 
 .fa-1x {
+    margin-top: 13px;
     font-size: 24px;
 }
 
