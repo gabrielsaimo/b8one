@@ -1,2 +1,2 @@
 # b8one
- projeto em react , frondend
+ projeto em react , Frontend
