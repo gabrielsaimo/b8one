@@ -1,7 +1,9 @@
 div {
     float: left;
 }
-
+html{
+    background: #444;
+}
 .card {
     display       : flex;
     flex-direction: column;
@@ -149,10 +151,10 @@ h6 {
     text-align      : center;
     line-height     : 45px;
     top             : 75px;
-    left            : 275px;
+
     cursor          : pointer;
     margin-left     : 238px;
-    position        : sticky;
+    position        : relative;
 }
 
 .circle:hover {
@@ -169,10 +171,9 @@ h6 {
     text-align      : center;
     line-height     : 45px;
     top             : 75px;
-    left            : 275px;
     cursor          : pointer;
     margin-left     : 238px;
-    position        : sticky;
+    position        : relative;
 }
 
 .circle2:hover {
