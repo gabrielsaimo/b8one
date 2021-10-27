@@ -27,7 +27,7 @@ const TogglwSwicht1 = () =>{
                         <div className='card'>
                             <div className="cards">
                             <a className={state ? 'circle2':'circle'} onClick={TogglwSwicht}>
-                                    <FontAwesomeIcon className="fa"  icon={farHeart} color="black" size="1x" />
+                                    <FontAwesomeIcon className={state ? 'fa':'fa'} icon={farHeart} color={state ? 'white':'black'} size="1x" />
                                 </a>
                                 <img className="img" src={Descricao.img} />
                                 
@@ -45,7 +45,7 @@ const TogglwSwicht1 = () =>{
                                     R$ {Descricao.preco}
                                 </h6>
                                 <h6 className='parc'>
-                                    em até <strong className='strong'>10x de R$ {Descricao.preco}</strong>  sem juros
+                                    em até <strong className='strong'>10x de R$ {Descricao.parcela}</strong>  sem juros
                                 </h6>
                                 <button className={state1 ? 'btn1':'btn'} type="submit" onClick={TogglwSwicht1}>{state1 ? '✓ Adicionado':'Adicionar'}</button>
                             </div>

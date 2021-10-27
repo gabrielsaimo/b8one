@@ -2,7 +2,7 @@ div {
     float: left;
 }
 html{
-    background: #444;
+    background: #E9EBEE;
 }
 .card {
     display       : flex;
@@ -184,8 +184,12 @@ h6 {
     font-size: 24px;
 }
 
-.fa-1x:hover {
+
+.fa:hover{
     color: #DA4B4F;
+}
+fas:hover{
+    color: white;
 }
 
 del {
